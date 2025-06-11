@@ -3,7 +3,7 @@ package org.example;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MultithreadingSiteVisitor {
+public class MultithreadingSiteVisitor {//
     private final SiteVisitCounter counter;
     private final List<Thread> threads = new ArrayList<>();
     private long totalTimeOfHandling;

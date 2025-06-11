@@ -8,7 +8,7 @@ public class AtomicIntegerCounter implements SiteVisitCounter {
 
     @Override
     public int getCount() {
-        return count.get();
+        return count.get();//
     }
 
     @Override

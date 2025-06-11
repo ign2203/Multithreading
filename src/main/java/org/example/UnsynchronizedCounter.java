@@ -5,7 +5,7 @@ public class UnsynchronizedCounter implements SiteVisitCounter {
 
     @Override
     public int getCount() {
-        return count;
+        return count;//
     }
 
     @Override

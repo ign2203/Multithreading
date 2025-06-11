@@ -7,7 +7,7 @@ public class SynchronizedBlockCounter implements SiteVisitCounter {
 
     @Override
     public int getCount() {
-        return count;
+        return count;//
     }
 
     @Override

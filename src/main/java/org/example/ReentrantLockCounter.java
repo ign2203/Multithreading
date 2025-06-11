@@ -12,7 +12,7 @@ public class ReentrantLockCounter implements SiteVisitCounter {
     }
 
     @Override
-    public void increment() {
+    public void increment() {//
         lock.lock();
         try {
             count++;

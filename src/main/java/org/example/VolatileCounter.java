@@ -5,7 +5,7 @@ public class VolatileCounter implements SiteVisitCounter {
 
     @Override
     public int getCount() {
-        return count;
+        return count;//
     }
 
     @Override
